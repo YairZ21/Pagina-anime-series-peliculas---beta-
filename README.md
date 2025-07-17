@@ -1,41 +1,90 @@
-🎬 ScreenMatch
-¡Bienvenido a ScreenMatch!
-Una aplicación web para explorar, gestionar y descubrir tus series favoritas.
+¡Por supuesto! Aquí tienes el **README.md en inglés**, manteniendo un tono llamativo y profesional para tu proyecto **ScreenMatch**:
 
+---
 
-🚀 Características principales
-*📚 Listado completo de series
-*🏆 Top 5 series mejor valoradas
-*🆕 Lanzamientos más recientes
-*🔎 Búsqueda por género (Acción, Romance, Comedia, Drama, Crimen, Animación, Aventura)
-*📺 Detalle de temporadas y episodios
-* Ranking de episodios destacados
+````markdown
+# 🎬 ScreenMatch
 
-🛠️ Tecnologías
-*Java 17+
-*Spring Boot
-*Maven
-*PostgreSQL
-*JPA/Hibernate
+Welcome to **ScreenMatch**!  
+A web application built with ❤️ to **explore, manage, and discover your favorite TV shows** like never before.
 
-⚡ Instalación rápida
-1.Clona el repositorio
+---
 
-2.Configura tu base de datos en src/main/resources/application.properties.
+## 🚀 Key Features
 
-3.Ejecuta la app
-mvn spring-boot:run -Dspring-boot.run.jvmArguments="--enable-native-access=ALL-UNNAMED"
+✨ Dive into a complete experience for series lovers:
 
-📖 Uso
-*Accede a la API en http://localhost:8080
-*Explora endpoints para series, géneros y episodios
+- 📚 **Full series listing**
+- 🏆 **Top 5 highest-rated series**
+- 🆕 **Latest releases**
+- 🔎 **Genre-based search**  
+  *(Action, Romance, Comedy, Drama, Crime, Animation, Adventure)*
+- 📺 **Detailed seasons and episodes**
+- 🌟 **Featured episodes ranking**
 
-🧩 Estructura del proyecto
-*model/ → Entidades y enums
-*service/ → Lógica de negocio
-*repository/ → Acceso a datos
-*dto/ → Transferencia de datos
+---
 
-👨‍💻 Autor
-YairZ21
+## 🛠️ Technologies Used
+
+ScreenMatch is powered by a modern and robust Java ecosystem:
+
+- ☕ **Java 17+**
+- 🌱 **Spring Boot**
+- 🧰 **Maven**
+- 🐘 **PostgreSQL**
+- 🔗 **JPA / Hibernate**
+
+---
+
+## ⚡ Quick Setup
+
+Follow these simple steps to run the project locally:
+
+1. 📥 Clone the repository:  
+   ```bash
+   git clone https://github.com/YairZ21/screenmatch.git
+   cd screenmatch
+````
+
+2. ⚙️ Configure your database in:
+   `src/main/resources/application.properties`
+
+3. ▶️ Run the app:
+
+   ```bash
+   mvn spring-boot:run -Dspring-boot.run.jvmArguments="--enable-native-access=ALL-UNNAMED"
+   ```
+
+---
+
+## 📖 How to Use
+
+Access the API via browser or Postman at:
+📍 `http://localhost:8080`
+
+Available endpoints:
+
+* `/series` – All series
+* `/genres` – Search by genre
+* `/episodes` – Episode details
+
+---
+
+## 🧩 Project Structure
+
+```
+📁 model/       → Entities and enums
+📁 service/     → Business logic
+📁 repository/  → Data access (JPA)
+📁 dto/         → Data transfer objects
+```
+
+---
+
+## 👨‍💻 Author
+
+Created by **YairZ21**
+📫 Let’s connect! Open to feedback, contributions, and ideas.
+
+```
 
